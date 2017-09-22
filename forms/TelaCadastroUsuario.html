@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/ButtonPosition.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title></title>
+
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+       <div class="container-fluid" id="espacamento-container">
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>Cadastro de Usuário no Sistema</strong>
+                                </div>
+                                <!--Início do form-->
+                                <div class="card-body">
+                                <form name="formUsuario" id="frmCadastroUsuario" action="">
+                                    <div class="row justify-content-between">
+                                        <div class="col-sm-8 mr-auto">
+                                            <label for="city">Nome Completo:</label>
+                                            <input type="text" class="form-control" id="txtNomeCompleto" required></input>
+                                        </div>
+
+                                        <div class="mr-auto">
+                                            <label for="lblSituacao">Estado da Conta do Usuário</label>
+                        
+                                            <div class="radio">
+                                                    <label class="radio-inline" for="radioAtivo">
+                                                        <input type="radio" id="radio1" name="radios" value="1" checked="">Ativo
+                                                    </label>
+                                                    &nbsp&nbsp
+                                                    <label class="radio-inline" for="radioInativo">
+                                                        <input type="radio" id="radio2" name="radios" value="0">Inativo
+                                                    </label>
+                                            </div>
+                                    </div>                                        
+                                    </div>
+                                    <!--/.row-->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-6">
+
+                                            <div class="form-group" id="espacamento">
+                                                <label for="lblRG">RG:</label>
+                                                <input type="text" class="form-control" id="txtRG" required>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="col-sm-6">
+
+                                            <div class="form-group" id="espacamento">
+                                                <label for="lblCPF">CPF:</label>
+                                                <input type="text" class="form-control" id="txtCPF" required>
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div><!--row-->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-12">
+
+                                            <div class="form-group">
+                                                <label for="lblDepto">Departamento:</label>
+                                                <input type="text" class="form-control" id="txtDepto">
+                                            </div>
+
+                                        </div>
+                                    </div><!--row -->
+
+                                     <div class="row">
+                                          
+                                        <div class="form-group col-sm-6">
+                                            <label for="lblUsuario">Usuário</label>
+                                            <input class="form-control" id="txtUsuario">
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="lblEmail">Email</label>
+                                            <input type="email" class="form-control" id="txtEmail">
+                                        </div>
+
+                                    </div><!--row -->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+
+                                            <div class="form-group">
+                                                <label for="lblSenha">Senha:</label>
+                                                <input type="password" class="form-control" id="txtSenha">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblConSenha">Confirme sua Senha:</label>
+                                                <input type="password" class="form-control" id="txtConSenha">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblLembrete">Lembrete para Senha:</label>
+                                                <input type="text" class="form-control" id="txtLembreteSenha">
+                                            </div>
+                                        </div>
+                                    </div><!--row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <label for="lblPerfilUsu">Perfil do usuário:</label>
+                                            <select class="form-control" id="cbPerfilUsu">
+                                             <!--conteúdo dos select -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--/.row-->
+                                       <div class="row justify-content-between">
+                                            <div class="col-auto mr-auto">
+                                                <button type="reset" class="btn btn-danger" id="espacamento">Voltar</button>
+                                           </div>
+                                           <div class="col-auto">
+                                                <button type="submit" class="btn btn-success" id="espacamento">Salvar</button>
+                                           </div>
+                                       </div><!--row-->
+                                </div>
+                                </form><!--form-->
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>                  
+</body>
+
+</html>

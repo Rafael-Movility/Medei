@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/ButtonPosition.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title></title>
+
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+       <div class="container-fluid" id="espacamento-container">
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>Registros de ex-funcionários</strong>
+                                </div>
+                                <!--Início do form-->
+                                <div class="card-body">
+                                <form name="formExFunc" id="frmCadastroExFunc" action="">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <label for="lblnomeCompleto">Nome Completo:</label>
+                                            <input type="text" class="form-control" id="txtNomeCompleto" ></input>
+                                        </div>
+
+                                        <div class="col-sm-2">
+                                            <label for="lblCPF">CPF:</label>
+                                            <input type="text" class="form-control" id="txtCPF" ></input>
+                                        </div>
+
+                                        <div class="col-sm-2">
+                                            <label for="lbldtNasc">Data de Nascimento:</label>
+                                            <input type="text" class="form-control" id="txtdtNasc" ></input>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <label for="lblcodExFunc">Código do Ex-funcionário:</label>
+                                            <input type="text" class="form-control" id="txtcodExFunc" ></input>
+                                        </div>                                        
+                                    </div>
+                                    <!--/.row-->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-6">
+
+                                            <div class="form-group" id="espacamento">
+                                                <label for="lbIDataAdm">Data de Admissão:</label>
+                                                <input type="text" class="form-control" id="txtDataAdm">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="form-group" id="espacamento">
+                                                <label for="lblDataDes">Data do Desligamento:</label>
+                                                <input type="text" class="form-control" id="txtDataDes">
+                                            </div>
+                                        </div>
+                    
+                                    </div><!--row-->
+
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group" >
+                                                <label for="lblMotivo">Motivo:</label>
+                                                <input type="text" class="form-control" id="txtMotivo">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="lblEmpresa">Empresa:</label>
+                                                <input type="text" class="form-control" id="txtEmpresa">
+                                            </div>
+                                        </div>
+                                    </div><!--row-->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+
+                                            <div class="form-group">
+                                                <label for="lblcargoExFunc">Cargo do Ex-funcionário:</label>
+                                                <input type="text" class="form-control" id="txtcargoExFunc">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblDeptoExFunc">Departamento do Ex-funcionário:</label>
+                                                <input type="text" class="form-control" id="txtDeptoExFunc">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-sm-4">
+                                            <label for="cbSindExFunc">Sindicato do Ex-funcionário:</label>
+                                            <select class="form-control" id="cbSindExFunc">
+                                             <!--conteúdo dos select -->
+                                            </select>
+                                        </div>
+                                    </div><!--row -->
+
+                                     <div class="row">
+                                          
+                                        <div class="form-group col-sm-6">
+                                            <label for="lblCEP">CEP:</label>
+                                            <input class="form-control" id="txtCEP">
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="lblBairro">Bairro:</label>
+                                            <input class="form-control" id="txtBairro">
+                                        </div>
+
+                                    </div><!--row -->
+
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+
+                                            <div class="form-group">
+                                                <label for="lblEndereco">Endereço:</label>
+                                                <input type="text" class="form-control" id="txtEndereco">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblNumero">Número:</label>
+                                                <input type="text" class="form-control" id="txtNumero">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblComp">Complemento:</label>
+                                                <input type="text" class="form-control" id="txtComp">
+                                            </div>
+                                        </div>
+                                    </div><!--row -->
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="cbCidade">Cidade:</label>
+                                            <select class="form-control" id="cbCidade">
+                                            <!--conteúdo dos select -->
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="cbEstado">Estado:</label>
+                                            <select class="form-control" id="cbEstado">
+                                             <!--conteúdo dos select -->
+                                            </select>
+                                        </div>
+                                    </div><!--row -->
+                                    <div class="row">
+                                        <label class="col-sm-12 form-control-label" for="lblObsExFunc">Observação do Ex-funcionário:</label>
+                                            <div class="col-sm-12">
+                                                <textarea id="txtObsExFunc" name="textarea-input" rows="5" class="form-control"></textarea>
+                                            </div>
+                                    </div><!--row -->
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+
+                                            <div class="form-group">
+                                                <label for="lblEmail">Email:</label>
+                                                <input type="email" class="form-control" id="txtEmail">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblTel">Telefone:</label>
+                                                <input type="text" class="form-control" id="txtTel">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <label for="lblCel">Celular:</label>
+                                                <input type="text" class="form-control" id="txtCel">
+                                            </div>
+                                        </div>
+                                    </div><!--row -->
+
+                                    <div class="row">
+                                        <label class="col-sm-12 form-control-label" for="lblObsSind">Observação do Sindicato:</label>
+                                            <div class="col-sm-12">
+                                                <textarea id="txtObsSind" name="textarea-input" rows="5" class="form-control"></textarea>
+                                            </div>
+                                    </div><!--row-->
+
+                                    <div class="row justify-content-between">
+                                            <div class="col-auto mr-auto">
+                                                <button type="reset" class="btn btn-danger" id="espacamento">Voltar</button>
+                                           </div>
+                                           <div class="col-auto">
+                                                <button type="submit" class="btn btn-success" id="espacamento">Salvar</button>
+                                           </div>
+                                   </div><!--row-->
+                                   </div>
+                                </form><!--form-->
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>                  
+</body>
+
+</html>
